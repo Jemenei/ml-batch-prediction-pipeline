@@ -1,0 +1,12 @@
+# Core ML & data
+pandas>=1.5
+scikit-learn>=1.1
+joblib>=1.2
+
+# Optional: swap built-in sqlite3 scheduler for a richer one
+# schedule>=1.2       # pip install schedule
+# apscheduler>=3.10   # pip install apscheduler
+
+# SQLAlchemy is NOT required — we use Python's built-in sqlite3 module.
+# Add it back if you want to swap in PostgreSQL / MySQL:
+# sqlalchemy>=2.0
